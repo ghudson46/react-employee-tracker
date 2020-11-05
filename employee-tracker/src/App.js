@@ -4,17 +4,18 @@ import "./App.css";
 // COMPONENTS
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
-import Container from "./components/Container";
+import MainPage from "./containers/MainPage";
 import Footer from "./components/Footer";
 
 // APP
 function App() {
   return (
-    <>
+    <Router basename={process.env.PUBLIC_URL + '/'}>
       <Navbar />
       <Jumbotron />
+      <Route exact path="/" component={MainPage} />
       <Footer />
-    </>
+    </Router>
   );
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import Item from "../Item";
+import Item from "./Item";
 import "./List.css";
 
 function List(props) {
@@ -23,13 +23,6 @@ function List(props) {
         {props.employees.map((employee) => (
         <Item {...employee} key={employee.id} />
         ))}
-    </div>
-    <div className="row">
-        <div className="col-sm-12 p-4 text-right">
-            <i>
-                {props.employees.length} employee(s) listed.
-            </i> 
-        </div>
     </div>
 </div>
   )

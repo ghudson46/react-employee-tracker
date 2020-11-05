@@ -1,5 +1,4 @@
 import React from "react";
-import "./Button.css";
 
 function Button(props) {
     // props: {color:"secondary", onClick=f(x), children: "Clear Filter"}
@@ -9,7 +8,7 @@ function Button(props) {
   
     return (
       <button
-        className={classList.join(" ") + " btn3d" + " btn-xs"}
+        className={classList.join(" ") + " btn3d btn-xs"}
         onClick={props.onClick}
         type={props.type}
       >
