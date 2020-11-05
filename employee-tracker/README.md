@@ -1,10 +1,35 @@
-# Getting Started with Create React App
+# **Employee Directory**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description 
 
-In the project directory, you can run:
+An employee directory created with React that allows users to view an entire employee directory at once so that they may have quick access to view data about other employees while allowing content to be filtered by an employees name.
+
+# Technologies Used
+
+This app used react.js, node.js, express.js, css, bootstrap and axios
+
+## Table of contents
+
+- [Installation](#installation)
+- [Instructions](#instructions)
+- [Features](#features)
+- [Example Gif](#example-gif)
+- [Repository Link](#Repository)
+- [Test](#Test)
+- [Licence](#Licence)
+- [GitHub Info](#GitHub)
+
+## Installation
+
+```
+npm i
+npm i --save bootstrap
+```
+
+## Instructions
+
+[Launch App]("https://www.garretthudson.com/react-employee-tracker/")
 
 ### `npm start`
 
@@ -39,32 +64,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Features
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Employees or managers are easily able to view information on other employees and filter that data by name
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Example Gif
 
-### Code Splitting
+<img src="./assets/ET.gif" width="500" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Repository
 
-### Analyzing the Bundle Size
+- [Project Repo](https://github.com/ghudson46/react-employee-tracker)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributors
 
-### Making a Progressive Web App
+nobody has contributed to this app yet but feel free to add whatever you like. Just email me or message me on github to let me know
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Test
 
-### Advanced Configuration
+tested with npm test, as well as on the UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Licence
 
-### Deployment
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## GitHu
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Garrett Hudson
+- [GitHub Profile](https://github.com/ghudson46)
+- <garrett.hudson46@gmail.com>
